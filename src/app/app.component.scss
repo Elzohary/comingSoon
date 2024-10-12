@@ -1,5 +1,5 @@
 section {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +8,7 @@ section {
     background-size: cover;
     background-position: center;
     padding: 5%;
+    overflow: hidden;
 }
 
 img {
@@ -36,6 +37,7 @@ h5 {
     /* Semi-transparent overlay */
     filter: blur(4px);
     z-index: 0;
+    overflow: hidden;
 }
 
 .content {
